@@ -11,7 +11,7 @@ spec:
   - host: vprofile.tcapp.xyz
     http:
       paths:
-      - path: /login
+      - path: /
         pathType: Prefix
         backend:
           service:
